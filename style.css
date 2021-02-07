@@ -1,0 +1,121 @@
+body{
+    background-color: #abbdbd;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-color:#4b7c8d ;
+    margin: 60px 50px 50px 50px;
+    height: 550px;
+    border-radius: 15px;
+    position: relative;
+    
+   
+}
+
+.text >p {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    padding: 5px;
+    color: #f5feff;
+}
+.flex{
+    display: flex;
+    height: 30.5vh;
+}
+.left{
+    border-right: 1px solid #f5feff;
+    flex: 50%;
+    height: 100%;
+}
+
+.right{
+    flex: 50%;
+    height: 100%;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link-left{
+  margin-top: -500px;
+  padding-left: 100px;
+  font-family: 'Wire One', sans-serif;  
+  font-size: 30px;
+  
+}
+.link-right{
+   float: right;
+   padding-right: 100px;
+   margin-top: -32px;
+   font-family: 'Wire One', sans-serif;
+   font-size: 30px;
+   
+
+}
+a{
+    color: #f5feff;
+   text-decoration: none;
+   
+}
+#home{
+    padding-right: 120px;
+}
+#about{
+    padding-right: 120px;
+}
+#login{
+    padding-left: 120px;
+}
+#cart{
+    padding-left: 120px;
+}
+
+img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    
+}
+#crotchet3{
+    height: 390px;
+    bottom: 60px;
+    right: 800px;
+    border-radius: 5px;
+}
+
+#crotchet1{
+    height: 150px;
+    
+    bottom: 200px;
+    left: -20px;
+    z-index: 4;
+}
+
+#crotchet7{
+    height: 150px;
+    bottom: 10px;
+    left: 300px;
+}
+#crotchet2{
+    height: 360px;
+    right: 200px;
+    bottom: 80px;
+    z-index: 7;
+}
+#crotchet4{
+    height: 150px !important;
+    right: -20px;
+    bottom: 10px;
+    width: 400px !important;
+}
